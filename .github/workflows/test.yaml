@@ -10,12 +10,12 @@ permissions:
   contents: read
 
 jobs:
-  build:
-
+  lint_and_test:
+    name: Lint and Test
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.10", "3.11", "3.12", "3.13"]
+        python-version: ["3.13"] # You can add "3.14" to this list once it is officially released
 
     steps:
     - uses: actions/checkout@v4
