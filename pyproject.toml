@@ -1,7 +1,7 @@
 [project]
 name = "dataengineering-projects"
 version = "0.1.0"
-description = "Add your description here"
+description = "Data engineering projects for training."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -15,4 +15,5 @@ dev = [
     "ruff>=0.15.12",
     "ty>=0.0.34",
     "pytest-responses>=0.5.1",
+    "pytest-github-actions-annotate-failures",
 ]
